@@ -84,10 +84,10 @@ const handleSubmit = (
           }
         )
       } else {
-        setSubmitSucceeded()
+        /*setSubmitSucceeded()
         if (onSubmitSuccess) {
           onSubmitSuccess(result, dispatch, props)
-        }
+        }*/
       }
       return result
     }
